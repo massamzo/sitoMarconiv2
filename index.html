@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Museo Guglielmo Marconi</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Satisfy&display=swap" rel="stylesheet">
+
+
+
+<body>
+
+  <!-- Fixed NavBar -->
+   <!--<div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper white">
+        <a href="#!" class="brand-logo">Guglielmo Marconi</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="storia.html">Storia</a></li>
+          <li><a href="esperimenti.html">Esperimenti</a></li>
+          <li><a href="curiosita.html">Curiosità</a></li>
+          <li><a href="telegrafo.html">Telegrafo</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>-->
+
+  <header id="navbar">
+    <nav class="navbar-container container" id="nav">
+      <a href="index.html" class="home-link" id="nava">
+        <div class="navbar-logo" >
+         <center><img src="./images/AV.png" class="aldini-logo"></center>
+        </div>
+        Museo Marconi
+      </a>
+      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div id="navbar-menu" aria-labelledby="navbar-toggle">
+        <ul class="navbar-links">
+          
+          <li class="navbar-item"><a class="navbar-link" href="./storia.html">Storia</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="./esperimenti.html">Esperimenti</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="./curiosita.html">Curiosità</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="./telegrafo/index.html">Telegrafo</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="./prenota.html">Prenota</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center  text-lighten-2" id="h1">Museo Guglielmo Marconi</h1>
+        <div class="row center">
+          <h5 class="header col s12 text-lighten-2 " id="h5">La formazione e la vita di Gugliemo Marconi!</h5>
+        </div>
+        <div class="row center">
+          <a  onclick="slideDown()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Esplora</a>
+        </div>
+        <br><br>
+
+      </div>
+      
+    </div>
+    <div class="parallax sli" id="slider" style="display:flex;flex-direction:row;">
+      <img src="./images/Museo.jpg" >
+      <img src="./images/esperimenti.jpg">
+
+    </div>
+
+  
+    
+  </div>
+
+  
+
+  
+
+
+  <div class="container" id="container-blink">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <!--
+            <h2 class="center brown-text"><i class="material-icons">museum</i></h2>
+             -->
+
+             <a class="center btn-floating btn-large pulse" id="stoP">
+              <img class='pulse-icons' src="./images/marconi.jpg">
+              
+            
+            </a>
+            
+              <iframe class='previewC' id='storiaIframe' src="./storia.html"></iframe>
+
+      
+            <p class="light">Guglielmo Marconi nasce a Bologna il 25 aprile 1874, sin da giovane mostra grande interesse nello studio delle radiocomunicazioni, già all’età di 20 anni ...</p>
+            <a href="./storia.html" onmouseover="animateBtn(this)" onmouseout="removeAnimation(this)" id="scopri" class="btn-large waves-effect waves-light teal lighten-1">Scopri</a>
+          
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+
+            <!--
+            <h2 class="center brown-text"><i class="material-icons">electric_bolt</i></h2>
+
+             -->
+            <a class="center btn-floating btn-large pulse"><img class='pulse-icons' src="./images/esperimenti.jpg"></a>
+            
+             <!--
+            <h5 class="center">Esperimenti</h5>
+             -->
+            <p class="light">I ricevitori sono dispositivi che ricevono e demodulano segnali in radiofrequenza e possono essere trovati in una varietà di dispositivi, tra cui radio ...</p>
+            <a href="./esperimenti.html" id="scopri" class="btn-large waves-effect waves-light teal lighten-1" onmouseover="animateBtn(this)" onmouseout="removeAnimation(this)">Scopri</a>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+              <!--
+            <h2 class="center"><i class="material-icons">emoji_objects</i></h2>
+             -->
+             
+             <a class="center btn-floating btn-large pulse"><img class='pulse-icons' src="./images/bbc.png"></a>
+             
+            <!--
+            <h5 class="center">Curiosità</h5>
+             -->
+            <p class="light">Nel Luglio 1987 Marconi fonda in Inghilterra la Marconi company, la prima compagnia che si occupava di trasmissioni radio.
+              Il 18 ottobre 1922 il General ...</p>
+              <a href="./curiosita.html" id="scopri" class="btn-large waves-effect waves-light teal lighten-1" onmouseover="animateBtn(this)" onmouseout="removeAnimation(this)" >Scopri</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper" id="collina">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">TELEGRAFO 3D</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./images/telegraph.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Telegrafo 3D dinamico</h4>
+          <p class="left-align light">Il telegrafo  è un sistema di comunicazione a distanza ideato per la trasmissione di dati (lettere, numeri e segni di punteggiatura) facendo uso di determinati codici (in questo caso punto e linea).<br>Nel telegrafo 3D presente nel sito, potete simulare un telegrafo reale e scrivere il codice morse che viene tradotto in automatico nell'alfabeto in tempo reale. </p>
+          <a href="./telegrafo/index.html" id="telegraph-btn" class="btn-large waves-effect waves-light teal lighten-1">Simulazione</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Descrivi immagine telegrafo</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="esperimenti.jpg" alt="Unsplashed background img 3"></div>
+  </div>-->
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">4AIN IIS Aldini Valeriani</h5>
+          <p class="grey-text text-lighten-4">Sito realizzato dalla classe 4AIN Informatica e Telecomunicazioni dell'IIS Aldini Valeriani di Bologna nell'ambito del Progetto di Educazione Civica per l'Agenda 2030</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.museomarconi.it/organizza-la-visita/prenota-la-visita/">Sito ufficiale Museo Marconi</a></li>
+            <li><a class="white-text" href="http://avbo.it/">IIS Aldini Valeriani</a></li>            
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Special Thanks</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Class 4AIN from Aldini Valeriani</a>
+      </div>
+    </div>
+  </footer>
+
+ 
+
+  <!--  Scripts-->
+  
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/navbar.js"></script>
+  
+  
+
+
+  </body>
+</html>

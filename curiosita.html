@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Museo Guglielmo Marconi</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/storia.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+<body>
+
+  <!-- Fixed NavBar -->
+   <!--<div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper white">
+        <a href="#!" class="brand-logo">Guglielmo Marconi</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="storia.html">Storia</a></li>
+          <li><a href="esperimenti.html">Esperimenti</a></li>
+          <li><a href="curiosita.html">Curiosità</a></li>
+          <li><a href="telegrafo.html">Telegrafo</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>-->
+
+  <header id="navbar">
+    <nav class="navbar-container container" id="nav">
+      <a href="index.html" class="home-link">
+        <div class="navbar-logo">
+         <center><img src="./images/AV.png" class="aldini-logo"></center>
+        </div>
+        Museo Marconi
+      </a>
+      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div id="navbar-menu" aria-labelledby="navbar-toggle">
+        <ul class="navbar-links">
+          
+          <li class="navbar-item"><a class="navbar-link" href="./storia.html">Storia</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="./esperimenti.html">Esperimenti</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="./curiosita.html">Curiosità</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="./telegrafo/index.html">Telegrafo</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="./prenota.html">Prenota</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center  text-lighten-2" id="h1" style="font-size: 1rem;"><pre>    </pre></h1>
+        <h1 class="header center  text-lighten-2" id="h1">Curiosita!</h1>
+        <div class="row center">
+          <h5 class="header col s12 text-lighten-2 " id="h5">Le leggende ed il testamento...</h5>
+        </div>
+        <br><br>
+
+      </div>
+      
+    </div>
+    <div class="parallax sli" id="slider" style="display:flex;flex-direction:row;">
+      <img src="./images/curiosita3.jpg" >
+
+    </div>
+
+  
+    
+  </div>
+
+  
+
+  
+
+
+  <div class="container" id="container-blink">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4 hidenmas" id="storia-txt" >
+            <div class="icon-block">
+  
+              <!--
+              <h2 class="center brown-text"><i class="material-icons">electric_bolt</i></h2>
+  
+               -->
+              
+              
+               <!--
+              <h5 class="center">Esperimenti</h5>
+  
+               -->
+
+              <div id="options-slider">
+                <button class="center btn-floating btn-large pulse blinker " id="lh-1">
+                  <i class='material-icons material-symbols-outlined material-symbols-outlined'>counter_1</i>
+                </button>
+
+                <button class="center btn-floating btn-large pulse blinker"  id="lh-2">
+                  <i class='material-icons material-symbols-outlined'>counter_2</i>
+                </button>
+
+                <button class="center btn-floating btn-large pulse blinker" id="lh-3">
+                  <i class='material-icons material-symbols-outlined'>counter_3</i>
+                </button>
+
+                <button class="center btn-floating btn-large pulse blinker" id="lh-4">
+                  <i class='material-icons material-symbols-outlined'>counter_4</i>
+                </button>
+
+                <button class="center btn-floating btn-large pulse blinker" id="lh-5">
+                  <i class='material-icons material-symbols-outlined'>counter_5</i>
+                </button>
+              </div>
+
+              <div id="slider_curiosita">
+               
+                <div id="slide1" class="slide-content">
+                  <h3>La leggenda del colpo di fucile</h3>
+                  <p class="light" id="leggenda1">
+                    Guglielmo Marconi iniziò a fare i primi esperimenti sulle radiocomunicazioni nel 1894 e già nel 1895 ottenne un risultato storico, riuscì a trasmettere un segnale radio oltre la collina dei Celestini.<br> Proprio attorno a questo evento si è creata la leggenda iconica del colpo di fucile.<br> Si racconta che Marconi avesse mandato il suo fattore (Marchi) a ricevere il messaggio oltre la collina dei Celestini e gli disse di sparare un colpo di fucile solo se avesse ricevuto 3 punti, e così fu.<br> In questo modo Marconi capì che il segnale aveva superato la collina e che i segnali potevano essere trasmessi oltre la “line of sight”.<br> Ma questa rimarrà sempre una leggenda perchè nessuno confermò mai la storia della fucilata e Marconi stesso non non citò mai l’evento in nessun scritto.
+                  </p>
+                  
+      
+                  <center><div id="scopri"  class="btn-large waves-effect waves-light teal lighten-1 loadMore" onclick="loadMore('curiosita','leggenda1',this)" onmouseover="animateBtn(this)" onmouseout="removeAnimation(this)" >continua a leggere</div></center>
+                </div>
+
+
+                <div id="slide2" class="slide-content" >
+                  <h3>La leggenda del ragazzo dei fulmini</h3>
+                  <p class="light" id="leggenda2">
+                    Una leggenda riguardante il giovane Marconi è quella dello scherzo che fece al prete di Pontecchio, tanto che ottenne il nomignolo di “ragazzo dei fulmini”.<br> Si racconta che per mostrare il funzionamento del suo primo ricevitore coherer ai suoi amici, che non credevano alle sue parole, decise di organizzare uno scherzo al prete.<br> Una domenica durante la messa entrò di nascosto nella camera da letto del parroco e nascose il ricevitore collegato ad un campanello sotto al letto.<br> Nel pomeriggio incontrò i suoi amici ai quali spiegò il funzionamento dello scherzo e li convinse ad appostarsi durante la notte, fuori dalla casa del reverendo.<br> Così Marconi iniziò ad inviare dei segnali radio e inevitabilmente il campanello iniziò a suonare, spaventando a morte il povero prete che si fiondò per strada correndo deriso dai compagni di Guglielmo.
+                  </p>
+                  
+      
+                  <center><div id="scopri"  class="btn-large waves-effect waves-light teal lighten-1 loadMore" onclick="loadMore('curiosita2','leggenda2',this)" onmouseover="animateBtn(this)" onmouseout="removeAnimation(this)" >continua a leggere</div></center>
+                </div>
+
+
+                <div id="slide3" class="slide-content" >
+                  <h3>Nascita della BBC</h3>
+                  <p class="light" id="leggenda3">
+                    Nel Luglio 1987 Marconi fonda in Inghilterra la Marconi company, la prima compagnia che si occupava di trasmissioni radio.<br> Il 18 ottobre 1922 il General Post Office britannico, e un gruppo di sei compagnie di telecomunicazioni, tra cui la Marconi Company, fondano la BBC.<br> La BBC offre da allora, un servizio regolare di trasmissioni e produce anche propri programmi e servizi d’informazione.
+                  </p>
+                  
+      
+                </div>
+
+
+                <div id="slide4" class="slide-content" >
+                  <h3>Panfilo Elettra</h3>
+                  <p class="light" id="leggenda4">
+                    Il panfilo Rovenska nasce in Inghilterra agli inizi del 1900 e viene acquistato da Carlo Stefano d'Austria ma con lo scoppio della prima guerra mondiale viene utilizzato come unità di pattugliamento nella Manica dagli inglesi. <br>Successivamente, nel 1919, Guglielmo Marconi acquista Il panfilo e lo ribattezza in Elettra trasformandolo in un laboratorio.<br> Il panfilo l’Elettra viaggiò per tutto il mondo, ma con lo scoppio del secondo conflitto mondiale viene requisito dalle truppe tedesche e trasformato in una nave da guerra e nel 1944 venne affondato.<br> Il relitto rimase in acque Jugoslave fino al 1962 quando venne riportata a galla e trainata fino a Trieste dove venne divisa in diverse parti, una delle quali è presente nel giardino del museo Marconi.
+                  </p>
+                  
+      
+                  <center><div id="scopri"  class="btn-large waves-effect waves-light teal lighten-1 loadMore" onclick="loadMore('curiosita3','leggenda4',this)" onmouseover="animateBtn(this)" onmouseout="removeAnimation(this)" >continua a leggere</div></center>
+                </div>
+
+
+                <div id="slide5" class="slide-content" >
+                  <h3>Il testamento scientifico e spirituale</h3>
+                  <p class="light" id="leggenda5">
+                    Nel 1937, pochi mesi prima di morire, Marconi fece un intervento al Forum del Chicago Tribune nel quale lasciò alla comunità scientifica quello che è considerato da molti il suo testamento scientifico.<br> Durante il suo intervento spiegò qual è il limite principale della radiodiffusione dell’epoca ovvero il fatto che erano unidirezionali: una persona trasmetteva mentre le altre ascoltavano.<br> Ciò che auspicava Marconi era uno scambio di comunicazioni bidirezionale, indipendentemente da dove si trovassero i corrispondenti, Questa idea andava già ad anticipare la creazione dei cellulari avvenuta solo nel 1973.<br> Oltre a questo Marconi sottolineava che la radio è uno strumento per far sentire la voce, le necessità e le aspirazioni di tutti i popoli ed essere quindi strumento di unione.
+                  </p>
+                  
+      
+                  <center><div id="scopri"  class="btn-large waves-effect waves-light teal lighten-1 loadMore" onclick="loadMore('curiosita4','leggenda5',this)" onmouseover="animateBtn(this)" onmouseout="removeAnimation(this)" >continua a leggere</div></center>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!--<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Descrivi immagine telegrafo</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="esperimenti.jpg" alt="Unsplashed background img 3"></div>
+  </div>-->
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">4AIN IIS Aldini Valeriani</h5>
+          <p class="grey-text text-lighten-4">Sito realizzato dalla classe 4AIN Informatica e Telecomunicazioni dell'IIS Aldini Valeriani di Bologna nell'ambito del Progetto di Educazione Civica per l'Agenda 2030</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.museomarconi.it/organizza-la-visita/prenota-la-visita/">Sito ufficiale Museo Marconi</a></li>
+            <li><a class="white-text" href="http://avbo.it/">IIS Aldini Valeriani</a></li>            
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Special Thanks</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Class 4AIN from Aldini Valeriani</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/slider.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/navbar.js"></script>
+  
+  
+
+
+  </body>
+</html>
